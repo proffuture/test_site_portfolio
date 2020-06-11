@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -20,6 +20,7 @@ body {
 .page-header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .page-header .container,
@@ -30,7 +31,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #ffffff;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -48,6 +49,7 @@ body {
 
 .hero-image {
   margin-bottom: 620px;
+  text-align: center;
 }
 
 .hero-image .container {
@@ -191,4 +193,16 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 100;
+
+}
+
+.footer-autor {
+  font-weight: bold;
+  width: 260px;
+  margin-top: 10px;
 }
