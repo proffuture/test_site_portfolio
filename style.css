@@ -48,7 +48,7 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 300px;
   text-align: center;
 }
 
@@ -60,15 +60,25 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  font-size: 80px;
   line-height: 96px;
   font-weight: 400;
+  text-transform: uppercase;
+  padding: 35px 20px 20px 20px;
+  border: 5px solid #222222;
+  margin: 0 auto;
+  width: 900px;
 }
 
 .hero-image p {
-  margin: 0;
+  margin-top: 50px;
   font-size: 32px;
   line-height: 48px;
+}
+
+.name-autor {
+  color: white;
+  text-transform: uppercase;
 }
 
 .intro {
