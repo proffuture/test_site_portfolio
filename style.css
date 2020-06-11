@@ -4,11 +4,12 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
+  color: #ffffff;
+  background-color: #222222;
   background-image: url("img/hero-bg.png");
   background-repeat: no-repeat;
   background-position: top center;
+
 }
 
 .container {
@@ -26,7 +27,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: center;
 }
 
 .page-header a {
@@ -48,8 +49,9 @@ body {
 }
 
 .hero-image {
-  margin-bottom: 300px;
+  margin-bottom: 350px;
   text-align: center;
+
 }
 
 .hero-image .container {
@@ -66,6 +68,7 @@ body {
   text-transform: uppercase;
   padding: 35px 20px 20px 20px;
   border: 5px solid #222222;
+  color: #222222;
   margin: 0 auto;
   width: 900px;
 }
@@ -79,6 +82,26 @@ body {
 .name-autor {
   color: white;
   text-transform: uppercase;
+}
+
+.name-autor::after {
+  content: "";
+  background-color: white;
+  padding: 0 3px 0 3px;
+  font-size: 2px;
+  vertical-align: middle;
+  padding-left: 50px;
+  margin-left: 50px;
+}
+
+.name-autor::before {
+  content: "";
+  background-color: white;
+  padding: 0 3px 0 3px;
+  font-size: 2px;
+  vertical-align: middle;
+  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .intro {
@@ -105,10 +128,21 @@ body {
   font-size: 28px;
   line-height: 40px;
   font-weight: 500;
+  text-align: center;
 }
 
 .intro p {
   margin: 0 0 32px;
+  text-align: center;
+}
+
+.portfolio p {
+  text-align: center;
+}
+
+.skills {
+  width: 70%;
+  margin: 0 auto;
 }
 
 .skills-list {
@@ -179,6 +213,7 @@ body {
   border-radius: 4px;
   background-color: #288be6;
   color: #ffffff;
+  text-align: center;
 }
 
 .page-footer {
